@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root{
+    --bg:#F8F2EC;
+    --paper:#FCF8F4;
+
+    --text:#5F4635;
+    --muted:#7C685A;
+
+    --accent:#B89472;
+    --border:#DBC9B7;
+
+    --overlay:rgba(0,0,0,.30);
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+
+    background:var(--bg);
+
+    color:var(--text);
+
+    font-family:'Lora', serif;
+}
+
+.font-title{
+    font-family:'Cormorant Garamond', serif;
+}
+
+.font-script{
+    font-family:'Cormorant Garamond', cursive;
+}
